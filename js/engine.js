@@ -79,8 +79,9 @@ var Engine = (function(global) {
      */
     function update(dt) {
         updateEntities(dt);
-        // checkCollisions();
+        checkCollisions();
     }
+
 
     /* This is called by the update function and loops through all of the
      * objects within your allEnemies array as defined in app.js and calls
@@ -94,6 +95,15 @@ var Engine = (function(global) {
             enemy.update(dt);
         });
         player.update();
+    }
+
+    /* This is method checks if the enemy is
+    colliding with the player
+    */
+    function checkCollisions() {
+        allEnemies.forEach(function (enemy) {
+            enemy.collision(player) ? player.reset() : null;
+        });
     }
 
     /* This function initially draws the "game level", it will then call
