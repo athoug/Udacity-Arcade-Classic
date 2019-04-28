@@ -1,11 +1,20 @@
 # Classic Arcade Game Clone Project
 
+A clone of the classic arcade game frogger.
+
 ![demo](images/demo.gif)
 
 ## Instructions
 
 to run this game all you need is a modern broswer that is compatiable with the Canvas API
 prefrably [chrome](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjw-4_mBRBuEiwA5xnFIGjqBJd8bCtUg_zKfQxcxu-D_xCoxcwTStNzdyRHI2_J-xdddZsLABoCLk4QAvD_BwE&gclsrc=aw.ds) or [firefox](https://www.mozilla.org/en-US/firefox/new/).
+
+What you need to do to play the game is:
+
+1. Clone or download the repository [this repository]
+2. in the project file, navigate to the `index.html` file
+3. Open the `index.html` in your broswer of choice [see above for recommended browser]
+4. then go ahead and play the game by using your keyboard
 
 ## Gameplay
 
